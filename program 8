@@ -1,0 +1,24 @@
+
+// C implementation to demonstrate
+// the example of the passing as
+// parameter in the function
+ 
+#include <stdio.h>
+ 
+// Function to print the array
+void print_array(int arr[], int n)
+{
+    // N is size of array
+    int i;
+ 
+    for (i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+}
+ 
+int main()
+{
+    int arr[5] = { 10, 20, 30, 40, 50 };
+ 
+    // Function Call
+    print_array(arr, 5);
+}
