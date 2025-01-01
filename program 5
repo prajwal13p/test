@@ -1,0 +1,21 @@
+// C implementation to
+// illustrate functions in C
+ 
+#include <stdio.h>
+ 
+// program to demonstrate functions
+// function definition
+// function to print something
+void print()
+{
+    printf("GeeksforGeeks\n");
+}
+// Function to add two numbers
+int add(int a, int b)
+{
+    int sum;
+    sum = a + b;
+    return sum;
+}
+ 
+// Main Function
