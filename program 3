@@ -1,0 +1,17 @@
+// C implementation to demonstrate
+// pointers in C
+ 
+#include <stdio.h>
+int main()
+{
+    int* ptr;
+    int num = 5;
+ 
+    ptr = #
+ 
+    // This gives address of num
+    printf("Value at ptr is %p\n", ptr);
+ 
+    // This gives value at num
+    printf("Value at *ptr is %d\n", *ptr);
+}
